@@ -23,7 +23,7 @@ const Booking = () => {
     return (
         <>
             <Navbar/>
-            <h1 className='max-w-7xl mx-auto text-center font-black text-3xl'>This is the <span className='text-yellow-700'>booking page</span></h1>
+            <h1 className='max-w-7xl mx-auto text-center font-black text-3xl'>This is the <span className='text-yellow-700'>Booking Page</span></h1>
            
             
             

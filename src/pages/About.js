@@ -5,7 +5,7 @@ const About = () => {
     return (
         <>
         <Navbar/>
-        <h1 className='max-w-7xl mx-auto text-center font-black text-3xl'>This is the <span className='text-yellow-700'>About page</span></h1> <br />
+        <h1 className='max-w-7xl mx-auto text-center font-black text-3xl'>This is the <span className='text-yellow-700'>About Page</span></h1> <br />
             <p className='max-w-7xl	mx-auto'> The Benefits of a Plant-Based Diet
 
 A plant-based diet is one that focuses on whole, natural foods that come from plants. This includes fruits, vegetables, grains, legumes, nuts, and seeds. Eating a plant-based diet has been linked to numerous health benefits, including a reduced risk of chronic diseases, improved digestion, and a lower environmental impact. Here are some of the key benefits of adopting a plant-based diet:

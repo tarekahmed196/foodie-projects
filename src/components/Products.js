@@ -6,7 +6,7 @@ const Products = () => {
 useEffect(() => {
   const getProducts = async () => {
     try {
-      const response = await axios.get('https://foodie5.free.beeceptor.com/');
+      const response = await axios.get('https://run.mocky.io/v3/32355326-aa6f-4766-9e0e-5a2b38618ff2');
       console.log(response);
       setItems(response.data);
     } catch (error) {

@@ -1,8 +1,15 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import 'aos/dist/aos.css'
+import Aos from 'aos';
 
 const Footer = () => {
+    useEffect(()=>{
+        Aos.init({duration:2000})
+    }, []);
     return (
-        <footer className="max-w-7xl mx-auto content-center text-center px-10 md:px-0 py-10">
+        <footer data-aos="fade-up"
+        data-aos-duration="3000"
+         className="max-w-7xl mx-auto content-center text-center px-10 md:px-0 py-10">
   <div className="flex items-center space-x-6">
     <div>
       
