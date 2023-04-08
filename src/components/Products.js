@@ -6,7 +6,7 @@ const Products = () => {
 useEffect(() => {
   const getProducts = async () => {
     try {
-      const response = await axios.get('../../public/db.json');
+      const response = await axios.get('https://foodie5.free.beeceptor.com/');
       console.log(response);
       setItems(response.data);
     } catch (error) {
@@ -24,7 +24,7 @@ useEffect(() => {
 
 console.log(items);
     return (
-        <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-16">
+        <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-16 mt-6">
   {items.map((item) => (
     <div key={item.id} className="bg-white shadow rounded-lg overflow-hidden">
       <img src={item.picture} alt={item.name} className="w-full h-48 object-cover" />
