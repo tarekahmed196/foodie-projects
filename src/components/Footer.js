@@ -115,7 +115,7 @@ const Footer = () => {
     nunc lorem nullam phasellus fringilla eget. Quis in amet interdum arcu
     suspendisse urna, leo non sed.
   </p>
-  <p>© Tarek Ahmed</p>
+  <p>© Tarek Ahmed || 2023</p>
 </footer>
     );
 };

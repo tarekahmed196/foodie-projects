@@ -4,6 +4,7 @@ import Slider from "../components/Slider";
 import JumpButton from "../components/JumpButton";
 import Products from "../components/Products";
 import Footer from "../components/Footer";
+// import Footer from "../components/Footer";
 
 const Home = () => {
   return (

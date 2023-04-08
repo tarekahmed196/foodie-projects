@@ -9,9 +9,9 @@ const Navbar = () => {
           <img
             src="https://thumbs.dreamstime.com/b/foodie-chef-logo-graphic-20100575.jpg"
             className="h-8 mr-3"
-            alt="Flowbite Logo"
+            alt="Foodie Logo"
           />
-          <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+          <span className="text-yellow-700 self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
             FOODIE
           </span>
         </Link>
