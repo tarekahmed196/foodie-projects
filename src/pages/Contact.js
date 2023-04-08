@@ -6,6 +6,7 @@ const Contact = () => {
     return (
         <>
         <Navbar/>
+        <h1 className='max-w-7xl mx-auto text-center font-black text-3xl'>This is the <span className='text-yellow-700'>Contact page</span></h1>
         <ContactForm/>
         </>
     );

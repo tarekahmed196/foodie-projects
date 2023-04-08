@@ -16,7 +16,7 @@ import { EffectCoverflow, Pagination } from "swiper";
 export default function App() {
     SwiperCore.use([Autoplay]);
   return (
-    <>
+    <div className="max-w-7xl mx-auto truncate">
       <Swiper
         effect={"coverflow"}
         grabCursor={true}
@@ -62,6 +62,6 @@ export default function App() {
         </SwiperSlide>
         
       </Swiper>
-    </>
+    </div>
   );
 }

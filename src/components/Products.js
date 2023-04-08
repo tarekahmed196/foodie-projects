@@ -6,7 +6,7 @@ const Products = () => {
 useEffect(() => {
   const getProducts = async () => {
     try {
-      const response = await axios.get('https://foodie4.free.beeceptor.com/');
+      const response = await axios.get('../../public/db.json');
       console.log(response);
       setItems(response.data);
     } catch (error) {
@@ -14,7 +14,14 @@ useEffect(() => {
     }
   };
   getProducts();
-}, []);
+}, []); 
+
+/* useEffect(()=>{
+  fetch('../../public/db.json')
+  .then(res=> res.json)
+  .then(data => setItems(data))
+},[]) */
+
 console.log(items);
     return (
         <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-16">
