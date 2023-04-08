@@ -6,7 +6,7 @@ const Products = () => {
 useEffect(() => {
   const getProducts = async () => {
     try {
-      const response = await axios.get('https://foodie2.free.beeceptor.com/');
+      const response = await axios.get('https://foodie4.free.beeceptor.com/');
       console.log(response);
       setItems(response.data);
     } catch (error) {
