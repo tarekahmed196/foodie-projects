@@ -8,7 +8,7 @@ const Footer = () => {
       
     </div>
     <div className=''>
-      <h1 className="text-xl font-bold text-black dark:text-gray-100">FOODIE</h1>
+      <h1 className="ml-96 pl-48 text-xl font-bold text-black dark:text-gray-100">FOODIE</h1>
     </div>
   </div>
   <div className="flex space-x-6 mt-8 justify-center content-center">
